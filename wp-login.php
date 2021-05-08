@@ -7,7 +7,7 @@
 <link rel="dns-prefetch" href="//s.w.org">
 <script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<link rel="stylesheet" id="blocksy-dynamic-global-css" href="https://anonymous7code.github.io/blog/wp-content/uploads/blocksy/css/global.css?ver=59105" type="text/css" media="all">
+<link rel="stylesheet" id="blocksy-dynamic-global-css" href="https://anonymous7code.github.io/blog/wp-content/uploads/blocksy/css/global.css?ver=63209" type="text/css" media="all">
 <link rel="stylesheet" id="dashicons-css" href="https://anonymous7code.github.io/blog/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
 <link rel="stylesheet" id="buttons-css" href="https://anonymous7code.github.io/blog/wp-includes/css/buttons.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
 <link rel="stylesheet" id="forms-css" href="https://anonymous7code.github.io/blog/wp-admin/css/forms.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
