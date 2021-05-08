@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>deep-learning &#8211; RiDit</title>
+	<atom:link href="https://anonymous7code.github.io/blog/tag/deep-learning/feed/" rel="self" type="application/rss+xml" />
+	<link>https://anonymous7code.github.io/blog</link>
+	<description>The Learner&#039;s Blog</description>
+	<lastBuildDate>Fri, 07 May 2021 16:42:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8-alpha-50806</generator>
+	<item>
+		<title>Deep image reconstruction from human brain activity &#124; Research Paper &#124; Short Note</title>
+		<link>https://anonymous7code.github.io/blog/2021/05/07/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/</link>
+					<comments>https://anonymous7code.github.io/blog/2021/05/07/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/#respond</comments>
+		
+		<dc:creator><![CDATA[Anonymous7code]]></dc:creator>
+		<pubDate>Fri, 07 May 2021 16:42:33 +0000</pubDate>
+				<category><![CDATA[Research Papers]]></category>
+		<category><![CDATA[deep-learning]]></category>
+		<category><![CDATA[machine-learning]]></category>
+		<category><![CDATA[research-papers]]></category>
+		<category><![CDATA[shortnote]]></category>
+		<guid isPermaLink="false">https://anonymous7code.github.io/blog/?p=1191</guid>
+
+					<description><![CDATA[This research paper explains and compares the way of humans perceiving images and trying to replicate through Deep Neural Network (DNN).The basic idea here is to read thoughts of humans through fMRI and then visualize them to create or predict an image.]]></description>
+										<content:encoded><![CDATA[
+<p class="has-small-font-size">**Note this is the short summary of the research paper which is available at <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1006633">https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1006633</a>  </p>
+
+
+
+<h2>Outline</h2>
+
+
+
+<p>This research paper explains and compares the way of humans perceiving images and trying to replicate through Deep Neural Network (DNN).The basic idea here is to read thoughts of humans through fMRI and then visualize them to create or predict an image.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1011" height="740" src="https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture.jpg" alt="" class="wp-image-1192" srcset="https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture.jpg 1011w, https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture-300x220.jpg 300w, https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture-768x562.jpg 768w" sizes="(max-width: 1011px) 100vw, 1011px" /><figcaption>Pipeline for the experiment</figcaption></figure></div>
+
+
+
+<p>So, it will have a human look at a picture as the example image here shows, that it will measure the MRI activity then it will use a feature decoder in order to map that MRI activity to features of a deep neural network and then they will reconstruct the image that is closest to those features in the neural network and by reconstruction they get out an image of what the human sees.</p>
+
+
+
+<p></p>
+
+
+
+<h2>Process Flow</h2>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="322" height="286" src="https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/a.jpg" alt="" class="wp-image-1193" srcset="https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/a.jpg 322w, https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/a-300x266.jpg 300w" sizes="(max-width: 322px) 100vw, 322px" /></figure></div>
+
+
+
+<p>The fMRI machine measure the fMRI activity that means it measures which ones part are active and and measures the blood flow into brain now they need feature decoder but because we want to have these features correspond to features in a neural network the neural network here is vgg there is a bunch of layers  and so on. So we have to put the image right into the neural network and then observe its features in the neural network and then we have to put the same image through the human and then you observe the fMRI features.</p>
+
+
+
+<p></p>
+
+
+
+<h2>Results</h2>
+
+
+
+<p>So after taking all the efforts to reconstruct human visualization the results are shown below</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="730" src="https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture1-1024x730.jpg" alt="" class="wp-image-1194" srcset="https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture1-1024x730.jpg 1024w, https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture1-300x214.jpg 300w, https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture1-768x548.jpg 768w, https://anonymous7code.github.io/blog/wp-content/uploads/2021/05/Capture1.jpg 1276w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>This shows that though they had fMRI data of the human brain the model did not actually produce the result better to recognize at looking once. Though humans were able to predict the original image from the model prediction with accuracy of 95+% but the task for the model did not actually fit well.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://anonymous7code.github.io/blog/2021/05/07/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
