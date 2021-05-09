@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.8-alpha-50806</generator>
 	<item>
 		<title>Deep image reconstruction from human brain activity &#124; Research Paper &#124; Short Note</title>
-		<link>https://anonymous7code.github.io/blog/2021/05/07/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/</link>
-					<comments>https://anonymous7code.github.io/blog/2021/05/07/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/#respond</comments>
+		<link>https://anonymous7code.github.io/blog/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/</link>
+					<comments>https://anonymous7code.github.io/blog/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/#respond</comments>
 		
 		<dc:creator><![CDATA[Anonymous7code]]></dc:creator>
 		<pubDate>Fri, 07 May 2021 16:42:33 +0000</pubDate>
@@ -90,7 +90,7 @@
 <p>This shows that though they had fMRI data of the human brain the model did not actually produce the result better to recognize at looking once. Though humans were able to predict the original image from the model prediction with accuracy of 95+% but the task for the model did not actually fit well.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://anonymous7code.github.io/blog/2021/05/07/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/feed/</wfw:commentRss>
+					<wfw:commentRss>https://anonymous7code.github.io/blog/deep-image-reconstruction-from-human-brain-activity-research-paper-short-note/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
