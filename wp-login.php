@@ -7,12 +7,12 @@
 <link rel="dns-prefetch" href="//s.w.org">
 <script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<link rel="stylesheet" id="blocksy-dynamic-global-css" href="https://anonymous7code.github.io/blog/wp-content/uploads/blocksy/css/global.css?ver=61263" type="text/css" media="all">
-<link rel="stylesheet" id="dashicons-css" href="https://anonymous7code.github.io/blog/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
-<link rel="stylesheet" id="buttons-css" href="https://anonymous7code.github.io/blog/wp-includes/css/buttons.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
-<link rel="stylesheet" id="forms-css" href="https://anonymous7code.github.io/blog/wp-admin/css/forms.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
-<link rel="stylesheet" id="l10n-css" href="https://anonymous7code.github.io/blog/wp-admin/css/l10n.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
-<link rel="stylesheet" id="login-css" href="https://anonymous7code.github.io/blog/wp-admin/css/login.min.css?ver=5.8-alpha-50806" type="text/css" media="all">
+<link rel="stylesheet" id="blocksy-dynamic-global-css" href="https://anonymous7code.github.io/blog/wp-content/uploads/blocksy/css/global.css?ver=12629" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://anonymous7code.github.io/blog/wp-includes/css/dashicons.min.css?ver=5.8-alpha-50847" type="text/css" media="all">
+<link rel="stylesheet" id="buttons-css" href="https://anonymous7code.github.io/blog/wp-includes/css/buttons.min.css?ver=5.8-alpha-50847" type="text/css" media="all">
+<link rel="stylesheet" id="forms-css" href="https://anonymous7code.github.io/blog/wp-admin/css/forms.min.css?ver=5.8-alpha-50847" type="text/css" media="all">
+<link rel="stylesheet" id="l10n-css" href="https://anonymous7code.github.io/blog/wp-admin/css/l10n.min.css?ver=5.8-alpha-50847" type="text/css" media="all">
+<link rel="stylesheet" id="login-css" href="https://anonymous7code.github.io/blog/wp-admin/css/login.min.css?ver=5.8-alpha-50847" type="text/css" media="all">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 		<meta name="viewport" content="width=device-width">
 		</head>
@@ -66,8 +66,8 @@ var _zxcvbnSettings = {"src":"https:\/\/anonymous7code.github.io\/blog\/wp-inclu
 <script type="text/javascript" id="wp-polyfill-js-after">
 ( 'fetch' in window ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"><\/scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.104.0"><\/scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.104.0"><\/scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"><\/scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.20"><\/scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"><\/scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://anonymous7code.github.io/blog/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.5"><\/scr' + 'ipt>' );
 </script>
-<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/dist/hooks.min.js?ver=5c7ecca63f79da3dc25ad4f50be4af7d" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/dist/i18n.min.js?ver=9684a8a1d075d75226baf068e492631a" id="wp-i18n-js"></script>
+<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/dist/hooks.min.js?ver=918c017bcf65f18eb3c2aa839ea04a4a" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/dist/i18n.min.js?ver=4eb120cb5d965c52429260219bc490f4" id="wp-i18n-js"></script>
 <script type="text/javascript" id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
@@ -83,17 +83,17 @@ var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", { "locale_data": { "messages": { "": {} } } } );
 </script>
-<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-admin/js/password-strength-meter.min.js?ver=5.8-alpha-50806" id="password-strength-meter-js"></script>
+<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-admin/js/password-strength-meter.min.js?ver=5.8-alpha-50847" id="password-strength-meter-js"></script>
 <script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/underscore.min.js?ver=1.8.3" id="underscore-js"></script>
 <script type="text/javascript" id="wp-util-js-extra">
 /* <![CDATA[ */
 var _wpUtilSettings = {"ajax":{"url":"\/Blogs\/wp-admin\/admin-ajax.php"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/wp-util.min.js?ver=5.8-alpha-50806" id="wp-util-js"></script>
+<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-includes/js/wp-util.min.js?ver=5.8-alpha-50847" id="wp-util-js"></script>
 <script type="text/javascript" id="user-profile-js-extra">
 /* <![CDATA[ */
-var userProfileL10n = {"user_id":"0","nonce":"efdbda0e8a"};
+var userProfileL10n = {"user_id":"0","nonce":"6f53b0b268"};
 /* ]]> */
 </script>
 <script type="text/javascript" id="user-profile-js-translations">
@@ -103,7 +103,7 @@ var userProfileL10n = {"user_id":"0","nonce":"efdbda0e8a"};
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", { "locale_data": { "messages": { "": {} } } } );
 </script>
-<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-admin/js/user-profile.min.js?ver=5.8-alpha-50806" id="user-profile-js"></script>
+<script type="text/javascript" src="https://anonymous7code.github.io/blog/wp-admin/js/user-profile.min.js?ver=5.8-alpha-50847" id="user-profile-js"></script>
 	<div class="clear"></div>
 	</body>
 	</html>
